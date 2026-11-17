@@ -1,0 +1,6 @@
+{
+  "name": "કારખાનું મેનેજર",
+  "description": "કારખાનાના કારીગરો, દૈનિક કામ, ઉપાડ, ચુકવણી, માસિક હિસાબ લોકિંગ અને AES-256-GCM એન્ક્રિપ્ટેડ બેકઅપ માટે સંપૂર્ણ ગુજરાતી ઓફલાઇન એકાઉન્ટિંગ એપ.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

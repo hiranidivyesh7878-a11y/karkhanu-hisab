@@ -1,0 +1,15 @@
+કારખાનું મેનેજર APK બનાવવા માટે (Android Studio વગર):
+
+1. આ ZIP ને extract કરો.
+2. github.com ખોલી Sign in / account બનાવો.
+3. New repository બનાવો (નામ: karkhanu-manager).
+4. Extract કરેલા બધા project files GitHub repository માં upload કરો. .github ફોલ્ડર સહિત upload કરવો જરૂરી છે.
+5. Repository માં Actions tab ખોલો.
+6. “Build Karkhanu Manager APK” workflow પસંદ કરી “Run workflow” દબાવો.
+7. Build સફળ થયા પછી workflow run ખોલો અને Artifacts માંથી “karkhanu-manager-debug-apk” download કરો.
+8. ZIP extract કરીને app-debug.apk Android phone માં install કરો. ફોનમાં જરૂર પડે તો “Install unknown apps” મંજૂરી આપો.
+
+નોંધ:
+- આ workflow debug APK બનાવે છે; Play Store માટે signed release APK નથી.
+- Gemini API key જરૂરી હોય તેવી સુવિધાઓ માટે GitHub Secrets માં GEMINI_API_KEY સેટ કરીને build config માં inject કરવાની વધારાની ગોઠવણ જરૂરી હોઈ શકે છે.
+- Build સફળ થશે તેની ગેરંટી નથી; dependency અથવા source error આવે તો build log પ્રમાણે સુધારવું પડશે.
